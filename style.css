@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+   
+}
+#logo{
+    float: right;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+}
+/*----------  CABECALHO ----------*/
+
+header#cabecalho-2{
+    background: rgb(255, 94, 0);
+    margin: 0 auto;
+}
+
+nav#menu-top ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav#menu-top li{
+    padding: 20px;
+
+}
+#main-title{
+    margin-left: 8%;
+    float: left;
+}
+#main-text p{
+    margin-left: 8%;
+    margin-top: 2%; 
+    color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+}
+#login{
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: bold;
+}
+#login:hover{
+    width: 150px;
+    transition: 0.5s;
+}
+
+/* CONTAINER CENTRAL DO HEADER */
+#container-cars{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+/* ------ CONTAINER DE OPÇÕES DE ALUGUEL ------- */
+#flex-title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: wrap;
+    
+    flex-direction: column;
+}
+
+#title-cont-rent{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 1%;
+    
+}
+#flex-title p{
+    text-align: center;
+}
+#rent{
+    display: flex;
+    margin-top: 10%; 
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+    
+    
+}
+.item{
+   
+    box-shadow: 1px 1px 1px 1px rgba(128, 126, 126, 0.411);
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    background: rgb(255, 255, 254);
+    width: 380px;
+    border-radius: 4px;
+    height: 400px;
+    margin-bottom: 5%;
+}
+
+/* Formatação de links */
+li a{
+    text-decoration: none;
+    color: white;
+    
+}
+#menu-top li a:hover{
+    background: whitesmoke;
+    color: black;
+    border-bottom: 2px;
+    transition: 0.3s;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* FORMATAÇÃO PRINCIPAL*/
+#principal{
+    margin: 0 auto;
+
+}
+
+.clear{
+    clear: both;
+}
+
+/*----------- FOOTER----------- */
+
+footer{
+    height: 160px;
+    background: whitesmoke;
+    text-align: center;
+
+}
+footer>p{
+    margin-top: 1%;
+}
+
+footer input{
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    border: none;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+footer input:hover{
+    background: rgb(255, 94, 0);
+    color:white;
+    transition: 1s;
+    border-radius: 4px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 12pt;
+}
